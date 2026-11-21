@@ -1,6 +1,6 @@
 # Cloudora plugins
 
-Optional add-ons for [Cloudora](../Cloudora-main). Install one in **Settings → Plugins** (choose the file, or paste its address or code). They stay in your browser only.
+Optional add-ons for [Cloudora](https://github.com/az4if/Cloudora). Install one in **Settings → Plugins** (choose the file, or paste its address or code). They stay in your browser only.
 
 | File | Adds |
 | --- | --- |
