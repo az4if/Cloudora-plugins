@@ -5,7 +5,8 @@
   "version": "1.0.0",
   "api": 1,
   "description": "Browse and search anime (AniList), with a built-in episode player and a server list.",
-  "author": "Cloudora"
+  "author": "Cloudora",
+  "homepage": "https://github.com/az4if/Cloudora-plugins"
 }
 */
 // Anime plugin for Cloudora: adds an "Anime" page.

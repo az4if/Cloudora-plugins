@@ -4,7 +4,8 @@
   "name": "Hello",
   "version": "1.0.0",
   "api": 1,
-  "description": "A tiny example plugin: adds a Hello page with a counter that remembers itself."
+  "description": "A tiny example plugin: adds a Hello page with a counter that remembers itself.",
+  "homepage": "https://github.com/az4if/Cloudora-plugins"
 }
 */
 export default function register(api) {
