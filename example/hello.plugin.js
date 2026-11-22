@@ -11,7 +11,7 @@
 export default function register(api) {
   const { esc } = api.ui;
   api.page({
-    id: "hello", title: "Hello", search: false,
+    id: "hello", title: "Hello", icon: "sparkle", search: false,
     list(_q, ctx) {
       const n = api.storage.get("count", 0);
       ctx.render(`<h3>Hello from a plugin</h3><p class="muted"><span id="hello-n">${esc(String(n))}</span> clicks so far.</p><button class="btn" data-hello>Click me</button>`);

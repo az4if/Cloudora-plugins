@@ -10,5 +10,5 @@
 }
 */
 export default function register(api) {
-  api.page({ id: "manga", title: "Manga", action: () => api.open("https://atsu.moe/") });
+  api.page({ id: "manga", title: "Manga", icon: "book", action: () => api.open("https://atsu.moe/") });
 }

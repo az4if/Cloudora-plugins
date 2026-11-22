@@ -89,7 +89,7 @@ export default function register(api) {
   });
 
   api.page({
-    id: "weather", title: "Weather", placeholder: "Search for a city…",
+    id: "weather", title: "Weather", icon: "cloud", placeholder: "Search for a city…",
     async list(q, ctx) {
       if (q) {
         ctx.render(spinner("Searching…"));

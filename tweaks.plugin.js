@@ -94,6 +94,6 @@ export default function register(api) {
     }
     return true;
   });
-  api.page({ id: "tweaks", title: "Site tweaks", search: false, list(_q, ctx) { ctx0 = ctx; editing = null; draw(); }, leave() { editing = null; } });
+  api.page({ id: "tweaks", title: "Site tweaks", icon: "code", search: false, list(_q, ctx) { ctx0 = ctx; editing = null; draw(); }, leave() { editing = null; } });
   api.onDispose(() => { removers.forEach((r) => r()); removers = []; });
 }

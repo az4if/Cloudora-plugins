@@ -356,7 +356,7 @@ export default function register(api) {
 
   // ---- the page ----
   api.page({
-    id: "anime", title: "Anime", placeholder: "Search anime…",
+    id: "anime", title: "Anime", icon: "play", placeholder: "Search anime…",
     async list(q, ctx) {
       const rows = q ? [["Results", { s: ["SEARCH_MATCH"], q }]] : [["Trending now", { s: ["TRENDING_DESC"] }], ["Most popular", { s: ["POPULARITY_DESC"] }]];
       const data = await Promise.all(rows.map(([, v]) => gql(LIST, { t: "ANIME", ...v })));

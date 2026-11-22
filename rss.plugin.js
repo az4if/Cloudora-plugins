@@ -132,7 +132,7 @@ export default function register(api) {
   });
 
   api.page({
-    id: "news", title: "News", placeholder: "Filter headlines…",
+    id: "news", title: "News", icon: "rss", placeholder: "Filter headlines…",
     async list(q, ctx) {
       const l = feeds();
       const addBar = `<div class="rss-add"><input placeholder="Paste a feed address (RSS or Atom)" spellcheck="false" autocomplete="off" inputmode="url" aria-label="Feed address" /><button type="button" class="btn" data-rss-add>Add feed</button></div>`;
