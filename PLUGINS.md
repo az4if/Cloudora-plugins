@@ -11,7 +11,7 @@ Ready-made plugins: [az4if/Cloudora-plugins](https://github.com/az4if/Cloudora-p
 Settings → Plugins, then one of:
 
 - **Choose file…** a `*.plugin.js` file from your computer
-- **Address**: a URL to a plugin file (the server fetches it through your own tunnel; hosts must allow it). Plugins installed this way can use **Check for update**
+- **Address**: a URL to a plugin file (fetched through your own tunnel). Plugins installed this way are checked for newer versions every 12 hours: a dot appears on Settings → Plugins and the plugin shows **Update to x.y.z**
 - **Paste code**
 
 You'll see the plugin's name, version and author and must confirm before anything runs.

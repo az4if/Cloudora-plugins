@@ -12,7 +12,7 @@ Optional add-ons for Cloudora. Install one in **Settings → Plugins**: choose t
 | `tweaks.plugin.js` | **Site tweaks**: your own CSS and JavaScript per site, with dark-mode and other presets (needs plugin API 2) | `https://raw.githubusercontent.com/az4if/Cloudora-plugins/main/tweaks.plugin.js` |
 | `example/hello.plugin.js` | A tiny example to copy when writing your own | `https://raw.githubusercontent.com/az4if/Cloudora-plugins/main/example/hello.plugin.js` |
 
-Installing from an address enables **Check for update**: bump `version` in the manifest, push, and users get the new one.
+Plugins installed from an address are checked for newer versions every 12 hours: bump `version` in the manifest and push, and users see **Update to x.y.z** in Settings → Plugins.
 
 > Plugins run with full access to Cloudora. Only install ones you trust.
 
